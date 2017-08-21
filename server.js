@@ -10,14 +10,14 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.sendFile('article one is requeted and served');
+  res.send('article one is requeted and served');
 });
 
 app.get('/article-two', function (req, res) {
-  res.sendFile('articel two is requested and served');
+  res.send('articel two is requested and served');
 });
 app.get('/article-three', function (req, res) {
-  res.sendFile('article three is requested and served');
+  res.send('article three is requested and served');
 });
 
 app.get('/ui/style.css', function (req, res) {
