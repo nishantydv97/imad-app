@@ -7,5 +7,5 @@ function moveRight(){
     img.styl.marginLeft =marginLeft + 'px';
 }
 img.onclick = function(){
-    var intervel = setInterval(moveRight , 15);
+    var intervel = setInterval(moveRight , 100);
 };
